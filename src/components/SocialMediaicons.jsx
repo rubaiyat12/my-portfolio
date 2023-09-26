@@ -1,6 +1,7 @@
 import facebook from '../assets/facebook.png' ;
 import instagram from '../assets/instagram.png' ;
 import linkedin from '../assets/linkedin.png' ;
+import git from '../assets/git.png' ;
 
 const SocialMediaIcons = () => {
     return (
@@ -13,6 +14,7 @@ const SocialMediaIcons = () => {
         >
           <img alt="linkedin-link" src={linkedin} />
         </a>
+        
        
         <a
           className="hover:opacity-50 transition duration-500"

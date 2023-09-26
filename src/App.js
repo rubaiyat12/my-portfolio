@@ -10,6 +10,7 @@ import useMediaQuery from "./hooks/useMediaQuery";
 import Navbar from "./scenes/Navbar";
 import LineGradient from "./components/LineGradient";
 
+
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
@@ -53,6 +54,7 @@ function App() {
       <LineGradient />
       <div className="w-5/6 mx-auto md:full">
         <MySkills />
+       
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto ">

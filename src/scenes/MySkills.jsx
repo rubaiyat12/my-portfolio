@@ -73,9 +73,21 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
+         
+
+       
           <p className="mt-5">
-          My front-end skills encompass proficiency in
-           HTML, CSS, and JavaScript with ReactJS coupled with expertise in responsive web design, UI/UX principles, 
+           
+            
+          My front-end skills encompass proficiency in 
+          <span className="font-bold"> HTML</span> ,
+          <span className="font-bold"> CSS</span> ,
+          <span className="font-bold"> JavaScript</span> ,
+           with
+           <span className="font-bold"> ReactJS</span> ,
+             coupled with expertise in responsive web design,
+             <span className="font-bold"> UI/UX</span> ,
+               principles, 
           and a knack for creating visually appealing and user-friendly web interfaces.
           </p>
         </motion.div>
@@ -102,9 +114,17 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          I possess strong back-end skills in the MERN stack, with a 
-          focus on Node.js and Express.js, allowing me to design and build robust server-side solutions,
-           manage databases using MongoDB, and create efficient APIs to
+          I possess strong back-end skills in the
+          <span className="font-bold"> MERN</span> ,
+           stack, with a 
+          focus on
+          <span className="font-bold"> Node.js</span> ,
+            and
+            <span className="font-bold"> Express.js</span> ,
+             , allowing me to design and build robust server-side solutions,
+           manage databases using
+           <span className="font-bold"> MongoDB</span> ,
+            , and create efficient APIs to
            support seamless communication between front-end and back-end components.
           </p>
         </motion.div>
