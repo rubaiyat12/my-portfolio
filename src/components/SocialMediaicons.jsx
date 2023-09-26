@@ -1,7 +1,7 @@
 import facebook from '../assets/facebook.png' ;
 import instagram from '../assets/instagram.png' ;
 import linkedin from '../assets/linkedin.png' ;
-import git from '../assets/git.png' ;
+
 
 const SocialMediaIcons = () => {
     return (
