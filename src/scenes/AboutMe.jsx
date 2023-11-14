@@ -1,14 +1,36 @@
 import React from 'react';
-import img from '../assets/raha.png'
+import img from '../assets/me-removebg-preview.png'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import SectionTitle from '../Shared/SectionTitle';
+
+import { motion } from "framer-motion";
+
+
 
 const AboutMe = () => {
     return (
         <section id="about" className="pt-32 pb-16">
+             
+      {/* HEADING */}
+      <motion.div
+        className="md:w-full  md:text-left"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, x: -50 },
+          visible: { opacity: 1, x: 0 },
+        }}
+      >
+        <div className="font-playfair font-semibold  text-center  text-4xl mb-5 text-white">
+          ABOUT ME
+        </div>
+        {/* <LineGradient width="mx-auto w-1/4" /> */}
+</motion.div>
+            
         <div className='lg:mt-14'>
-            <SectionTitle heading={"About Me"}></SectionTitle>
+           
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div data-aos="fade-up" className='mx-auto flex items-center justify-center'>
                     <img className='rounded lg:w-[700px] w-[620px] pb-10 md:py-0  hover:scale-90 transition' src={img} alt="" />

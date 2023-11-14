@@ -30,15 +30,13 @@ const Contact = () => {
           hidden: { opacity: 0, x: 50 },
           visible: { opacity: 1, x: 0 },
         }}
-        className="flex justify-end w-full"
+        className="text-center p-6 mt-6 w-full"
       >
-        <div>
+        <div className="item-center">
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+            <span className="text-white">CONTACT ME</span> TO GET STARTED
           </p>
-          <div className="flex md:justify-end my-5">
-            <LineGradient width="w-1/2" />
-          </div>
+          
         </div>
       </motion.div>
 
@@ -119,7 +117,7 @@ const Contact = () => {
               })}
             />
             {errors.message && (
-              <p className="text-red mt-1">
+              <p className="text-white mt-1">
                 {errors.message.type === "required" &&
                   "This field is required."}
                 {errors.message.type === "maxLength" &&

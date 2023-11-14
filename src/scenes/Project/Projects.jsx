@@ -4,6 +4,7 @@ import SectionTitle from "../../Shared/SectionTitle";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import ProjectsCard from "./ProjectsCard";
 import 'react-tabs/style/react-tabs.css';
+import { motion } from "framer-motion";
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
@@ -29,9 +30,25 @@ const Projects = () => {
 
     return (
         <section id="projects" className="pt-32 pb-16">
+            {/* HEADING */}
+      <motion.div
+        className="md:w-full  md:text-left"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, x: -50 },
+          visible: { opacity: 1, x: 0 },
+        }}
+      >
+        <div className="font-playfair font-semibold  text-center  text-4xl mb-5 text-white">
+          PROJECTS
+        </div>
+        </motion.div>
         <div className="lg:px-10 lg:mt-14">
             
-            <SectionTitle heading={"Projects"}></SectionTitle>
+           
 
             <div className='pt-4'>
 

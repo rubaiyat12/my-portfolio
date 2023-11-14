@@ -44,9 +44,9 @@
         "date" : "05/02/2023",
         "type" : "front-end",
         "image" : "https://i.ibb.co/Bf85Y3Q/image.png",
-        "live_site": "https://chef-master-b155b.web.app/",
-        "client_side": "https://github.com/yeasinbhuiyan/Chef-Master-Client",
-        "server_side": "https://github.com/yeasinbhuiyan/Chef-Master-Server",
+        "live_site": "https://fitness-gym-app-r.netlify.app/",
+        "client_side": "https://github.com/rubaiyat12/Fitness_Exercises_App",
+        
         "technology_used": [
             "React JS",
             
@@ -129,48 +129,33 @@
 
     {
         "_id": 6,
-        "name": "Geometry Genious",
+        "name": "Financial Bank",
         "type" : "dom",
         "date" : "02/23/2023",
-        "image" : "",
-        "live_site": "https://geometry-geniouss.netlify.app/",
-        "client_side": "https://github.com/yeasinbhuiyan/geometro-geniuss",
+        "image" : "https://i.ibb.co/F0hHtLd/image.png",
+        "live_site": "https://finalcial-calculator.netlify.app/",
+        "client_side": "https://github.com/rubaiyat12/Financial_Calculator",
         
         "technology_used": [
             "HTML",
+            "CSS",
             "Javascript",
-            "Css",
             "Tailwind CSS",
+            "DOM",
             "Chrome Dev Tools"
            
         ],
-        "technology": " HTML || Javascript || Tailwind CSS || Vs Code || Chrome Dev Tools",
-        "key_features_heading": "The Geometry Genius is a geometry calculation website",
+        "technology": " HTML || Javascript || Tailwind CSS || Vs Code || DOM",
+        
         "key_features": [
-            "Here we have seen six geometries like: Triangle, Rectangle, Parallelogram, Rhombus, Pentagon, Ellipse.",
-            "It will calculate according to the calculation of geometry. Here we will calculate some by default and if we give a number inside some input fields, it will calculate us according to that number and give us the answer in our 'Area Calculation' section.",
-            "If we mouse hover the geometries, different colors are displayed"
-        ]
-    },
-
-
-    {
-        "_id": 7,
-        "name": "Technology Store",
-        "type" : "dom",
-        "date" : "03/06/2023",
-        "image" : "",
-        "live_site": "https://technology-storee.netlify.app/",
-        "client_side": "https://github.com/yeasinbhuiyan/technology-store",
-       
-        "technology": " HTML || CSS || Tailwind CSS || Flowbite || Chrome Dev Tools || Vs code || RESTful APIs || Font Awesome",
-        "key_features_heading": "Technology Store is a collection of technology websites",
-        "key_features": [
-            "Store text with technology in the banner is animated like this by setting setInterval through Java Script",
-            "Then clicking the I button in the technology card section will show the details of that specific technology",
-            "And if we want we can bookmark that specific technology and it will be there even if we reload because we did it with local storage."
+            "The DOM Financial Calculate Project offers customizable calculation modules.",
+            "The project prioritizes user experience with an intuitive and user-friendly interface. "
+            
         ]
     }
+
+
+    
 
 
 
