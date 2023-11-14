@@ -1,14 +1,19 @@
 import {useEffect, useState } from "react";
 import Landing from "./scenes/Landing";
 import DotGroup from "./scenes/DotGroup";
-import MySkills from "./scenes/MySkills";
-import Projects from "./scenes/Projects";
+// import MySkills from "./scenes/MySkills";
+// import Projects from "./scenes/Projects";
 import Testimonials from "./scenes/Testimonials";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 import useMediaQuery from "./hooks/useMediaQuery";
 import Navbar from "./scenes/Navbar";
 import LineGradient from "./components/LineGradient";
+// import Skills from "./scenes/Skills";
+
+import Projects from "./scenes/Project/Projects";
+import SkillR from "./scenes/SkillR";
+import AboutMe from "./scenes/AboutMe";
 
 
 function App() {
@@ -53,7 +58,18 @@ function App() {
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto md:full">
-        <MySkills />
+        {/* <Skills /> */}
+
+        <AboutMe/>
+
+       
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:full">
+        {/* <Skills /> */}
+
+        <SkillR/>
+
        
       </div>
       <LineGradient />

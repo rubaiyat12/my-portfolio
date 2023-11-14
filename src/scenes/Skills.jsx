@@ -1,6 +1,7 @@
 
 import styled from 'styled-components'
 import { skills } from '../Data/Constants'
+import useMediaQuery from '../hooks/useMediaQuery';
 
 const Container = styled.div`
 display: flex;
@@ -120,11 +121,13 @@ const SkillImage = styled.img`
 
 
 const Skills = () => {
+  const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
-    <Container id="skills">
+   <section id="skills" className="pt-32 pb-16">
+     <Container >
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>Here are some of my skills on which I have been working on for the past 1 years.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
@@ -144,6 +147,7 @@ const Skills = () => {
         </SkillsContainer>
       </Wrapper>
     </Container>
+   </section>
   )
 }
 
