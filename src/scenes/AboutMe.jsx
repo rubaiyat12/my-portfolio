@@ -66,13 +66,13 @@ const AboutMe = () => {
                                     <h4><span className='font-semibold'>Date of Birth : </span><span>05-October-1998</span></h4>
                                     <h4><span className='font-semibold'>Phone Number : </span><span>+8801823291708</span></h4>
                                     <h4><span className='font-semibold'>Email : </span><span>rubaiyatraha12@gmail.com</span></h4>
-                                    <h4><span className='font-semibold'>Language : </span><span>Bangla ,  English</span></h4>
+                                    <h4><span className='font-semibold'>Language : </span><span>Bangla,  English</span></h4>
                                     <h4><span className='font-semibold'>Home Town : </span><span>Noakhali , Bangladesh</span></h4>
-                                    <h4><span className='font-semibold'>Current Town : </span><span>Tangail, Bangladesh</span></h4>
+                                    <h4><span className='font-semibold'>Current Town : </span><span>Nikunja, Dhaka , Bangladesh</span></h4>
                                     <h5><span className='font-semibold'>Nationality : </span><span>Bangladeshi</span></h5>
                                 </div>
                             </TabPanel>
-
+                            {/* hdiufdhiu */}
                             <TabPanel>
                                 <div data-aos="zoom-in-down" className='text-gray-200 px-10 pt-10 '>
                                     <div>
