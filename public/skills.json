@@ -1,0 +1,176 @@
+[
+    {
+        "Good At": [
+            {
+                "name": "HTML5",
+                "_id": 1,
+                "url": "https://i.ibb.co/1scydpt/image.png",
+                "alternativeText": "HTML5 logo"
+            },
+            {
+                "name": "CSS3",
+                "_id": 2,
+                "url": "https://i.ibb.co/d06zfgN/image.png",
+                "alternativeText": "CSS3 Logo"
+            },
+            {
+                "name": "JavaScript",
+                "_id": 3,
+                "url": "https://i.ibb.co/q9PcPcx/image.png",
+                "alternativeText": "JavaScript Logo"
+            },
+            {
+                "name": "Tailwind CSS",
+                "_id": 4,
+                "url": "https://i.ibb.co/LJy0vPL/image.png",
+                "alternativeText": "Tailwind CSS logo"
+            },
+            {
+                "name": "Bootstrap",
+                "_id": 5,
+                "url": "https://i.ibb.co/6vxy1HS/image.png",
+                "alternativeText": "Bootstrap Logo"
+            },
+            {
+                "name": "React.js",
+                "_id": 6,
+                "url": "https://i.ibb.co/T2zQfRM/image.png",
+                "alternativeText": "React.js Logo"
+            },
+            {
+                "name": "MongoDB",
+                "_id": 7,
+                "url": "https://i.ibb.co/4TGjbNC/image.png",
+                "alternativeText": "MongoDB logo"
+            },
+            {
+                "name": "MySQL",
+                "_id": 8,
+                "url": "https://i.ibb.co/gtZNMTv/1012821-code-development-logo-mysql-icon.png",
+                "alternativeText": "MySQL Logo"
+            },
+            {
+                "name": "ES6",
+                "_id": 26,
+                "url": "https://i.ibb.co/djg0r0x/image.png",
+                "alternativeText": "ES6 Logo"
+            },
+            {
+                "name": "DaisyUI",
+                "_id": 27,
+                "url": "https://i.ibb.co/4NpnkF6/image.png",
+                "alternativeText": "DaisyUi Logo"
+            }
+        ],
+        "Comfortable With": [
+            {
+                "name": "Node.js",
+                "_id": 9,
+                "url": "https://i.ibb.co/3f79hFC/image.png",
+                "alternativeText": "Node.js Logo"
+            },
+            {
+                "name": "Express.js",
+                "_id": 12,
+                "url": "https://i.ibb.co/DpkhHxp/image.png",
+                "alternativeText": "Express.js logo"
+            },
+            {
+                "name": "JWT",
+                "_id": 10,
+                "url": "https://i.ibb.co/jymcty9/image.png",
+                "alternativeText": "JWT logo"
+            },
+            {
+                "name": "RESTful APIs",
+                "_id": 11,
+                "url": "https://i.ibb.co/R3F4BSL/rest-api-icon.png",
+                "alternativeText": "RESTful APIs logo"
+            }
+        ],
+        "Familiar With": [
+            {
+                "name": "C Programming",
+                "_id": 13,
+                "url": "https://i.ibb.co/jTXQ9yz/image.png",
+                "alternativeText": "C Programming Logo"
+            },
+            {
+                "name": "C++",
+                "_id": 14,
+                "url": "https://i.ibb.co/0Qw5Tbr/image.png",
+                "alternativeText": "C++ logo"
+            },
+            {
+                "name": "Java",
+                "_id": 15,
+                "url": "https://i.ibb.co/0XNcSs0/image.png",
+                "alternativeText": "Java Logo"
+            }
+        ],
+        "Tools and Platform": [
+            {
+                "name": "Firebase",
+                "_id": 16,
+                "url": "https://i.ibb.co/QF6b3fx/image.png",
+                "alternativeText": "Firebase Logo"
+            },
+            {
+                "name": "GitHub",
+                "_id": 17,
+                "url": "https://i.ibb.co/vqKwHgP/image.png",
+                "alternativeText": "GitHub Logo"
+            },
+            {
+                "name": "VS Code",
+                "_id": 18,
+                "url": "https://i.ibb.co/z884FmC/image.png",
+                "alternativeText": "VS Code Logo"
+            },
+            {
+                "name": "Figma",
+                "_id": 19,
+                "url": "https://i.ibb.co/r7hkMKK/image.png",
+                "alternativeText": "Figma Logo"
+            },
+            {
+                "name": " Netlify",
+                "_id": 20,
+                "url": "https://i.ibb.co/R6p4yh1/image.png",
+                "alternativeText": " Netlify logo"
+            },
+            {
+                "name": "Vercel",
+                "_id": 21,
+                "url": "https://i.ibb.co/tm02h4Y/image.png",
+                "alternativeText": "Vercel Logo"
+            },
+            {
+                "name": "Render",
+                "_id": 22,
+                "url": "https://i.ibb.co/SQ5nGTV/image.png",
+                "alternativeText": "Render Logo"
+            },
+            {
+                "name": "Chrome Dev Tools",
+                "_id": 23,
+                "url": "https://i.ibb.co/bgwDPdd/image.png",
+                "alternativeText": "Chrome Dev Tools Logo"
+            }
+        ],
+        "Version Control": [
+            {
+                "name": "Git",
+                "_id": 24,
+                "url": "https://i.ibb.co/Dbq5m8w/image.png",
+                "alternativeText": "Git Logo"
+            },
+            {
+                "name": "GitHub",
+                "_id": 25,
+                "url": "https://i.ibb.co/vqKwHgP/image.png",
+                "alternativeText": "GitHub Logo"
+            }
+        ]
+    }
+]
