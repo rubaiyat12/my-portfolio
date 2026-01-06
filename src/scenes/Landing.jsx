@@ -15,9 +15,9 @@ const Landing = ({ setSelectedPage }) => {
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div
-          // className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-          // before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2
-          //  before:border-blue before:z-[-1]"
+            // className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
+            // before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2
+            //  before:border-blue before:z-[-1]"
           >
             <img
               alt="profile"
@@ -48,6 +48,7 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-4xl font-playfair z-10 text-center md:text-start">
+<<<<<<< HEAD
             Software Developer {""}{" "}
           </p>
           {/* <span
@@ -61,6 +62,20 @@ const Landing = ({ setSelectedPage }) => {
             I have a strong passion for creating intuitive and user-friendly
             digital experiences, with a focus on human-centered design,
             accessibility, and effective interaction.
+=======
+            Junior  Developer {""} </p>
+            {/* <span
+              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
+              before:absolute before:-left-[30px] before:-top-[50px] before:z-[-1]"
+            > */}
+             
+            {/* </span> */}
+         
+
+          <p className="mt-10 mb-7 text-sm text-center md:text-start">
+          As a CSE student, I possess a deep passion for web development and a strong desire to
+           design and develop user-friendly websites and web applications.
+>>>>>>> b558df159b8a2c00d13a0776490315be02edf771
           </p>
         </motion.div>
 
@@ -113,4 +128,8 @@ const Landing = ({ setSelectedPage }) => {
   );
 };
 
+<<<<<<< HEAD
 export default Landing;
+=======
+export default Landing;
+>>>>>>> b558df159b8a2c00d13a0776490315be02edf771
