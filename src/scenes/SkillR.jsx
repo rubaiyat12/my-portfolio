@@ -1,63 +1,135 @@
-import { useEffect, useState } from "react";
-// import SectionTitle from "../../Shared/SectionTitle";
-// import './Skill.css'
+// SkillAccordionFull.jsx
+import { useState } from "react";
+import {
+  FaFigma,
+  FaUserAlt,
+  FaPencilRuler,
+  FaTasks,
+  FaUniversalAccess,
+  FaDesktop,
+  FaVrCardboard,
+  FaServer,
+} from "react-icons/fa";
+import {
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiJsonwebtokens,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiTailwindcss,
+  SiBootstrap,
+} from "react-icons/si";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
-const Skill = () => {
-    const [skillsData, setSkillsData] = useState([]);
-    useEffect(() => {
-        fetch('skills.json')
-            .then(res => res.json())
-            .then(data => {
+const skillsData = [
+  {
+    category: "Design & UX Skills",
+    skills: [
+      { name: "Figma", icon: FaFigma },
+      { name: "User Research", icon: FaUserAlt },
+      { name: "Wireframing & Prototyping", icon: FaPencilRuler },
+      { name: "Usability Testing", icon: FaTasks },
+      { name: "Accessibility Design", icon: FaUniversalAccess },
+      { name: "Interaction Design", icon: FaDesktop },
+    ],
+  },
+  {
+    category: "Front-End Implementation",
+    skills: [
+      { name: "HTML5", icon: SiHtml5 },
+      { name: "CSS3", icon: SiCss3 },
+      { name: "JavaScript (ES6)", icon: SiJavascript },
+      { name: "React.js", icon: SiReact },
+      { name: "Tailwind CSS", icon: SiTailwindcss },
+      { name: "Bootstrap", icon: SiBootstrap },
+    ],
+  },
+  {
+    category: "Backend Technology",
+    skills: [
+      { name: "Node.js", icon: SiNodedotjs },
+      { name: "Express.js", icon: SiExpress },
+      { name: "MongoDB", icon: SiMongodb },
+      { name: "MySQL", icon: SiMysql },
+      { name: "JWT", icon: SiJsonwebtokens },
+      { name: "REST APIs", icon: FaServer },
+    ],
+  },
+  {
+    category: "Virtual & Augmented Reality",
+    skills: [
+      { name: "VR/AR Design", icon: FaVrCardboard },
+      { name: "3D Interaction Design", icon: FaDesktop },
+    ],
+  },
+ 
+];
 
-                setSkillsData(data[0]);
-            })
-    }, [skillsData])
+const SkillAccordionFull = () => {
+  const [openIndex, setOpenIndex] = useState(null);
 
-    return (
-        <div id="skills" className="lg:mt-14 lg:px-20 ">
+  const toggleCategory = (index) =>
+    setOpenIndex(openIndex === index ? null : index);
 
-            {/* <SectionTitle heading={"My Skills"}></SectionTitle> */}
+  return (
+    <div id="skills" className="lg:mt-14 lg:px-10">
+      {/* Heading */}
+       <h2 className="font-playfair font-semibold   text-center  text-4xl mb-10 text-white">
+        Skills and Expertise
+      </h2>
 
-            {
-                Object.entries(skillsData).map(([category, skills]) => (
-                    <div
-                        key={category}
-                        data-aos="fade-up"
-                        className="w-full shadow-xl rounded-sm grid grid-cols-1 mx-auto gap-30"
-                    >
-                        <div className=" text-white mx-">
+      {skillsData.map((categoryData, index) => (
+        <div
+          key={categoryData.category}
+          className="mb-6 rounded-lg overflow-hidden shadow-lg"
+        >
+          {/* Category Header */}
+          <button
+            onClick={() => toggleCategory(index)}
+            className="w-full flex justify-between items-center p-4 bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-800 font-semibold text-lg"
+          >
+            {categoryData.category}
+            {openIndex === index ? (
+              <IoIosArrowUp size={24} color="currentColor" />
+            ) : (
+              <IoIosArrowDown size={24} color="currentColor" />
+            )}
+          </button>
 
-                            <h2 className=" text-white font-bold text-3xl text-center">{category}</h2>
-                            <ul className="pt-10 flex flex-row items-center justify-evenly flex-wrap">
-                                {
-                                    skills.map((skill) => (
-                                        <div
-                                            key={skill._id}
-                                            className="bg-white p-10 mb-6 rounded-lg z-4 cursor-pointer flex 
-                                        items-center justify-center w-[150px] h-[180px] sm:w-[200px] sm:h-[200px]"
-                                        >
-                                            <div>
-                                                <img
-                                                    className="w-full"
-                                                    src={skill.url}
-                                                    alt={skill.alternativeText}
-                                                />
-                                                <p className="text-black text-center font-bold mt-3 text-lg">
-                                                    {skill.name}
-                                                    <span className="text-primary"></span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    ))
-                                }
-                            </ul>
-                        </div>
+          {/* Skills List */}
+          <div
+            className={`transition-all duration-500 overflow-hidden ${
+              openIndex === index ? "max-h-[2000px] p-6" : "max-h-0 p-0"
+            }`}
+          >
+            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+              {categoryData.skills.map((skill) => {
+                const IconComponent = skill.icon;
+                return (
+                  <li
+                    key={skill.name}
+                    className={`flex flex-col items-center justify-center p-6 rounded-xl shadow-md transform transition-all duration-300
+                      hover:scale-105 hover:shadow-xl hover:bg-gradient-to-br hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500
+                      hover:text-white focus:outline-none focus:ring-4 focus:ring-indigo-400 text-gray-900 bg-white`}
+                    tabIndex={0}
+                  >
+                    <div className="text-5xl mb-3">
+                      <IconComponent color="currentColor" />
                     </div>
-                ))
-            }
-
+                    <p className="font-semibold text-center">{skill.name}</p>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </div>
-    );
+      ))}
+    </div>
+  );
 };
 
-export default Skill;
+export default SkillAccordionFull;
