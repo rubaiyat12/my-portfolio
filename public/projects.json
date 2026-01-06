@@ -1,162 +1,110 @@
 [
-    {
-        "_id": 1,
-        "name": "Expert Servicing Master",
-        "type" : "mern-stack",
-        "image" : "https://i.ibb.co/4mhWyRZ/image.png",
-         "live_site": "https://car-masters-service-client-rubaiyat12.vercel.app/",
-        "client_side": "https://github.com/rubaiyat12/CarMastersService_Client",
-        "server_side": "https://github.com/rubaiyat12/CarMastersService_Server",
-        "date" : "06/17/2023",
-       
-        "technology":  "React JS || Express JS || React Hook Form || RESTful APIs || Tailwind || JWT || React Swiper || React Spinner || React Icon || Firebase || MongoDb || React Router || Vs Code || Framer Motion",
+  {
+    "_id": 1,
+    "name": "Expert Servicing Master",
+    "type": "mern-stack",
+    "image": "https://i.ibb.co/4mhWyRZ/image.png",
+    "live_site": "https://car-masters-service-client-rubaiyat12.vercel.app/",
+    "client_side": "https://github.com/rubaiyat12/CarMastersService_Client",
+    "server_side": "https://github.com/rubaiyat12/CarMastersService_Server",
+    "date": "2023-06-17",
+    "technology": "React JS || Express JS || React Hook Form || RESTful APIs || Tailwind || JWT || Firebase || MongoDB || React Router || Framer Motion",
+    "key_features": [
+      "Professional vehicle maintenance and repair service platform",
+      "Users can explore and select different car services",
+      "Smooth booking experience with secure authentication"
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "Task Management Application",
+    "type": "mern-stack",
+    "image": "https://i.ibb.co/3mxt34p/image.png",
+    "live_site": "https://github.com/rubaiyat12/Task-management-Application-client",
+    "client_side": "https://github.com/rubaiyat12/Task-management-Application-client",
+    "server_side": "https://github.com/rubaiyat12/Task-management-Application-server",
+    "date": "2023-05-22",
+    "technology": "React JS || Express JS || MongoDB || RESTful APIs || Tailwind || React Router",
+    "key_features": [
+      "Secure authentication and data protection",
+      "Create, edit, and delete tasks",
+      "Task prioritization and due date management"
+    ]
+  },
 
+  {
+    "_id": 8,
+    "name": "News Portal",
+    "type": "front-end",
+    "image": "https://i.ibb.co/h2tw4r5/image.png",
+    "live_site": "https://newsbd23.netlify.app/",
+    "client_side": "https://github.com/rubaiyat12/NewsBD_client",
+    "date": "2023-04-19",
+    "technology": "React JS || RESTful APIs || Firebase || Tailwind CSS || React Router",
+    "key_features": [
+      "News categorized by topic",
+      "Easy browsing and filtering system",
+      "Dedicated breaking news section"
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Image Gallery",
+    "type": "front-end",
+    "image": "https://i.ibb.co/BGp13dq/image.png",
+    "live_site": "https://image-gallery-rubaiyat.netlify.app/",
+    "client_side": "https://github.com/rubaiyat12/image-gallery",
+    "date": "2023-04-16",
+    "technology": "React JS || Tailwind CSS || Framer Motion || HTML || CSS",
+    "key_features": [
+      "Responsive image gallery layout",
+      "Multiple image format support",
+      "Upload, drag, drop, and delete images"
+    ]
+  },
 
-        
-        "key_features": [
-            "At Expert garage care website , your vehicle deserves the highest level of attention and expertise when it comes to  maintenance and repair",
-            "Explore a Range of Car Services. ",
-            "Select the services you require and enjoy a premium experience. "
-        ]
-    },
-    {
-        "_id": 2,
-        "name": "Task Management Application",
-        "date" : "05/22/2023",
-        "type" : "mern-stack",
-        "image": "https://i.ibb.co/3mxt34p/image.png",
-        "live_site": "https://github.com/rubaiyat12/Task-management-Application-client",
-        "client_side": "https://github.com/rubaiyat12/Task-management-Application-client",
-        "server_side": "https://github.com/rubaiyat12/Task-management-Application-server",
-        "technology":  "React JS || Express JS || React Router || Tailwind || React Icon ||  MongoDb || Vs Code || RESTful APIs || ",
-        
-        "key_features": [
-            "Implement robust security measures to protect user data.",
-            "Allow users to create, edit, and delete tasks.",
-            "Include options for setting due dates, priorities, and task descriptions."
-        ]
-    },
+  {
+    "_id": 6,
+    "name": "Financial Bank",
+    "type": "vanilla",
+    "image": "https://i.ibb.co/F0hHtLd/image.png",
+    "live_site": "https://finalcial-calculator.netlify.app/",
+    "client_side": "https://github.com/rubaiyat12/Financial_Calculator",
+    "date": "2023-02-23",
+    "technology": "HTML || CSS || JavaScript || Tailwind CSS || DOM",
+    "key_features": [
+      "Interactive financial calculation modules",
+      "User-friendly and intuitive UI",
+      "Pure DOM-based logic implementation"
+    ]
+  },
+  {
+    "_id": 100,
+    "name": "SciTech Consulting & Solutions – Corporate Website",
+    "type": "professional",
+     "live_site": "https://www.scitechbd.com/",
+    "date": "2024-01-01",
+    "technology": "ServiceNow || JavaScript || HTML || CSS || REST APIs",
+    "key_features": [
+      "Developed and maintained the corporate website for internal and external use",
+      "Implemented UI improvements and ensured cross-browser compatibility",
+      "Collaborated with internal teams to align business requirements with technical solutions"
+    ],
+    "role": "Solely responsible for the development of the corporate website, including full frontend implementation, UI enhancements, and technical configuration."
+  },
+  {
+    "_id": 101,
+    "name": "Ideeza – AI-Powered Innovation Platform",
+    "type": "professional",
+     "live_site": "https://frontdev.ideeza.com/",
+    "date": "2024-06-01",
+    "technology": "UX Design || Human-Centered Design (HCD) || Human–Computer Interaction (HCI) || Interaction Design || Accessibility (WCAG) || Information Architecture || React JS || REST APIs || Backend Integration || Enterprise UX Systems",
 
-
-    {
-        "_id": 3,
-        "name": "Fitness Exercise App",
-        "date" : "05/02/2023",
-        "type" : "front-end",
-        "image" : "https://i.ibb.co/Bf85Y3Q/image.png",
-        "live_site": "https://fitness-gym-app-r.netlify.app/",
-        "client_side": "https://github.com/rubaiyat12/Fitness_Exercises_App",
-        
-        "technology_used": [
-            "React JS",
-            
-            "React Icon",
-            "React Router",
-            "Material UI",
-            "Tailwind CSS",
-            "AOS",
-            "Vs code",
-            "Netlify",
-            "RESTful APIs"
-        ],
-        "technology": " React JS || Express JS || RESTful APIs || Tailwind || Firebase || MongoDb || React Router || Vs Code || Aos || React Icon",
-        
-        "key_features": [
-            "Access a comprehensive collection of exercises with step-by-step guides.",
-            "Recommend a selection of YouTube videos related to the gym that you have searched for.",
-            "Offer workouts of a similar nature to those available at the gym you have looked up. "
-        ]
-    },
-    
-    {
-        "_id": 8,
-        "name": "News Portal",
-        "date" : "04/19/2023",
-        "type" : "front-end",
-        "image" : "https://i.ibb.co/h2tw4r5/image.png",
-        "live_site": "https://newsbd23.netlify.app/",
-        "client_side": "https://github.com/rubaiyat12/NewsBD_client",
-        "technology": " React JS || RESTful APIs || HTML || CSS || Tailwind Css || Firebase || React Router || Vs Code || React Icon || Chrome Dev Tools",
-        
-        "key_features": [
-            "Categorize news articles into sections like politics, technology, sports, entertainment, etc.",
-            "Allow users to easily browse and filter news based on their interests.",
-            "Feature a dedicated section for breaking news to highlight urgent and important updates."
-        ]
-    },
-
-
-    {
-        "_id": 4,
-        "name": "Image Gallery",
-        "type" : "front-end",
-        "date" : "04/16/2023",
-        "image" : "https://i.ibb.co/BGp13dq/image.png",
-        "live_site": "https://image-gallery-rubaiyat.netlify.app/",
-        "client_side": "https://github.com/rubaiyat12/image-gallery",
-       
-        "technology": "React JS || HTML || CSS || Tailwind CSS || Framer motion || Vs Code || React Icon || ",
-       
-        "key_features": [
-            "Ensures a seamless experience for users on different platforms.",
-            " Support for multiple image formats.",
-            "Users can Upload, drag and drop and delete multiple images."
-        ]
-    },
-
-   
-    {
-        "_id": 5,
-        "name": "MakeUp and Skin Care Website",
-        "type" : "front-end",
-        "date" : "04/28/2023",
-        "image" : "https://i.ibb.co/JsnXG5J/image.png",
-        "live_site": "https://task-2-rubaiyat.netlify.app/",
-        "client_side": "https://task-2-rubaiyat.netlify.app/",
-       
-      
-        "technology": " React JS || HTML || Css || Tailwind Css || React Router || Vs Code || React Icon || ",
-        
-        "key_features": [
-            " Clearly categorized sections for makeup and skincare products.",
-            "Detailed descriptions of makeup and skincare items.",
-            "Tips on application techniques and product usage."
-        ]
-    },
-
-
-
-
-    {
-        "_id": 6,
-        "name": "Financial Bank",
-        "type" : "dom",
-        "date" : "02/23/2023",
-        "image" : "https://i.ibb.co/F0hHtLd/image.png",
-        "live_site": "https://finalcial-calculator.netlify.app/",
-        "client_side": "https://github.com/rubaiyat12/Financial_Calculator",
-        
-        "technology_used": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "Tailwind CSS",
-            "DOM",
-            "Chrome Dev Tools"
-           
-        ],
-        "technology": " HTML || Javascript || Tailwind CSS || Vs Code || DOM",
-        
-        "key_features": [
-            "The DOM Financial Calculate Project offers customizable calculation modules.",
-            "The project prioritizes user experience with an intuitive and user-friendly interface. "
-            
-        ]
-    }
-
-
-    
-
-
-
+    "key_features": [
+      "Contributed to multiple HCL and UX-driven user flows",
+      "Worked on frontend and backend features across different modules",
+      "Improved usability and interaction based on real user requirements"
+    ],
+    "role": "Involved in designing and developing enterprise-level features, collaborating closely with UX, frontend, and backend teams."
+  }
 ]
